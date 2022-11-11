@@ -1,13 +1,18 @@
 import javax.swing.JOptionPane;
-
+/**
+ * This class is the main of the game, will call methods from GameLogic Class to run the game.
+ * @author Ben Avrahami
+ *
+ */
 public class Game {
 	private static boolean again;
 	private static boolean gameWon;
 
 	public static void main (String[]args) {
 		JOptionPane.showMessageDialog(null,"Rules:\n The number is 4 digits long with each digit different then the others\n The number is only made up of digits between 0-9 \n Any other char, or repeating the same 0-9 digit more then once will result in an input error","Rules Of The Game- Bulls And Cows",JOptionPane.INFORMATION_MESSAGE);
+		GameLogic game=new GameLogic();//creates a new object of the class GameLogic
 		while (true) {
-			GameLogic game=new GameLogic();//creates a new object of the class GameLogic
+			game.restart();//restarts the game values for a new game
 			again=true; //resets the values at a game start
 			gameWon=false;//resets the values at a game start
 			while(again) {//while the user still wants to play will continue to run the loop which is operating the game with the same number
