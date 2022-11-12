@@ -9,7 +9,7 @@ Bulls and Cows is an old code-breaking mind or paper and pencil game for two or 
 
 **Table of Contents**
 
-[TOCM]
+[TOC]
 
 
 How To Play
