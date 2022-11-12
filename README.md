@@ -7,10 +7,6 @@ Bulls and Cows is an old code-breaking mind or paper and pencil game for two or 
 
 
 
-**Table of Contents**
-
-[TOC]
-
 
 How To Play
 =============
@@ -25,7 +21,7 @@ the number of bulls and the number of cows.
 
 e.g. Let the target be 1234. Guessing 4321 will give 0 bulls and 4 cows. 3241 will give 1 bull and 3 cows. 4 bulls means you have won the game!
 
-###### Done By
+#### Done By
 Ben Avrahami 
 The game was created as an assignment in the course- Advanced Object Orianted Programming with Java (20554) in The Open University Of Israel.
 
